@@ -8,7 +8,7 @@ function handleClick(el){
     arr[id] = currentPlayer;
     el.innerText = currentPlayer;
     checkWinner();
-    currentPlayer = currentPlayer === "S" ? "O" : "S";
+    currentPlayer = currentPlayer === "M" ? "O" : "M";
 }
 
 function checkWinner(){
